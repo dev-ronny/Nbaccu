@@ -1,21 +1,61 @@
-  .oooooo.   oooooooooooo oooooooooo.  
- d8P'  'Y8b  '888'     '8 '888'  'Y8b 
-888 	      888          888     888 
-888           888oooo8     888oooo888' 
-888           888    "     888    `88b 
-`88b    ooo   888       o  888    .88P 
- `Y8bood8P'  o888ooooood8 o888bood8P'  
-                                       
-                                       
-Advertencia: El mal uso que se le pueda dar a este Script no es responsabilidad del desarrollador.
-Warning: The misuse that can be given to this Script is not the responsibility of the developer.
+#Nbaccu
+######CEB
+### Features
+
+- Small script to control program system about the time
+- Send reports by mail
 
 
-Este es un Script que permite enviar reportes periodicos de programas del sistema a un correo electronico.
-This is a script that allows you to send periodic reports of system programs to an email.
 
-Para configurar se debe agregar el correo desde donde y hacia donde quiera enviar
-To configure, you must add the mail from where and to where you want to send
+###Install
 
-Gracias Por ver :)
-thanks for watching:)
+-git clone https://github.com/dev-ronny/Nbaccu
+-Inside the python file modify mail, to and passw
+
+    mail = 'Yourmail'
+    passw = 'Yourpassword'
+    to = 'Mailreceiver'
+    
+######Important:  enable lesssecureapps in gmail :
+######  [Gmail_lesssecureapps](https://myaccount.google.com/lesssecureapps "Gmail_lesssecureapps")
+-if you want can modify the time to reports in variables time wait_seconds and second_time
+
+    wait_seconds = 7200 
+    second_time = 1800
+    
+
+
+#Important 
+                
+the programmer is not responsible for the misuse of the Script
+
+#Nbaccu 
+######CEB
+### Caracteristicas
+
+- Pequeño Script en python para controlar los programas del sistema
+- Envia reportes periodicos al correo 
+
+
+
+###Instalacion
+
+-git clone https://github.com/dev-ronny/Nbaccu
+-Dentro del archivo python modificar:
+
+    mail = 'Tu correo'
+    passw = 'Tu contraseña'
+    to = 'Correo receptor'
+    
+######Importante:  habilitar lesssecureapps en gmail :
+######  [Gmail_lesssecureapps](https://myaccount.google.com/lesssecureapps "Gmail_lesssecureapps")
+-Si quieres modificar el tiempo de envio de los reportes se modifican en las variables:
+
+    wait_seconds = 7200 
+    second_time = 1800
+    
+
+
+#Importante 
+                
+El programador no se hace responsable del mal uso del Script.
