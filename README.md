@@ -20,7 +20,7 @@
     
 ###### Important:  enable lesssecureapps in gmail :
 ######  [Gmail_lesssecureapps](https://myaccount.google.com/lesssecureapps "Gmail_lesssecureapps")
-- if you want can modify the time to reports in variables time wait_seconds and second_time
+- if you want, you can modify the shipping time of the reportsin the time variables:
 
         wait_seconds = 7200 
         second_time = 1800
